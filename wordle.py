@@ -3,12 +3,6 @@ correctword = [None] * 5
 yellowchars = [[], [], [], [], []]
 greychars = ['']
 
-def countuniquechars(word):
-    chars = set()
-    for c in word:
-        chars.add(c)
-    return len(chars)
-
 def lettersinword():
     letters = []
     for y in range(len(yellowchars)):
